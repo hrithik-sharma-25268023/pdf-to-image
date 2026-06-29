@@ -1,0 +1,23 @@
+name: pdf-to-image
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.8
+
+  # Images
+  - pillow
+  - opencv
+
+  # Utilities
+  - tqdm
+  - pyyaml
+  - ipykernel
+
+  - pip
+  - pip:
+      - boto3
+      - streamlit
+      - pdf2image
