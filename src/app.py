@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 st.title("📄 PDF to Image")
 
 # Upload PDF
-uploaded_file = st.file_uploader("Upload Invoice PDF", type=["pdf"])
+uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
 
 if st.button("Convert"):
 
